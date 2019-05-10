@@ -59,7 +59,7 @@ if on_rtd:
 html_theme_options = {
     # 'typekit_id': 'hiw1hhg',
     # 'analytics_id': '',
-    # 'sticky_navigation': True  # Set to False to disable the sticky nav while scrolling.
+    'sticky_navigation': False,  # Set to False to disable the sticky nav while scrolling.
     'logo_only': True,  # if we have a html_logo below, this shows /only/ the logo with no title text
     'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
     # 'display_version': True,  # Display the docs version
@@ -68,11 +68,11 @@ html_theme_options = {
 
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
 html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "godotengine", # Username
-    "github_repo": "godot-docs", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/", # Path in the checkout to the docs root
+    "display_github": True,  # Integrate GitHub
+    "github_user": "godotengine",  # Username
+    "github_repo": "godot-docs",  # Repo name
+    "github_version": "master",  # Version
+    "conf_py_path": "/",  # Path in the checkout to the docs root
 }
 
 html_logo = 'img/docs_logo.png'
